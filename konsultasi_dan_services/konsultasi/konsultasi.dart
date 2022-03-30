@@ -61,7 +61,7 @@ class Konsultasi extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  '(Jenjang karir, konsentrasi mata kuliah, jenis magang)',
+                                  '(Jenjang karir, konsentrasi mata kuliah, jenis magang, dsb.)',
                                   style: TextStyle(
                                     fontSize: 17,
                                     color: Colors.black,
@@ -83,7 +83,106 @@ class Konsultasi extends StatelessWidget {
                     ),
                   ),
                 ),
-
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 2');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Konsultasi Masalah Keluarga dan Keuangan',
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    overflow: TextOverflow.fade,
+                                  ),
+                                ),
+                                Text(
+                                  '(Solusi beasiswa, projek berbayar, pinjaman yang difasilitasi Kampus Gratis & disponsori oleh pembimbing akademis atau civitas Kampus Gratis, dsb.)',
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w400,
+                                    overflow: TextOverflow.fade,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 3');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Konsultasi Masalah Pribadi dan Cuti Kuliah',
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    overflow: TextOverflow.fade,
+                                  ),
+                                ),
+                                Text(
+                                  '(Sedang kerja, hamil, penyakit berat, rawat inap, melakukan tindakan kriminal, memakai narkoba, dsb.)',
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w400,
+                                    overflow: TextOverflow.fade,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
                 SizedBox(height: 5),
                 Divider(
                   color: Colors.grey[350],
@@ -112,7 +211,7 @@ class Konsultasi extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  '(Skripsi, Magang, penugasan, dan hal-hal terkait penilaian prestasi kampus atau kinerja di kampus)',
+                                  '(Skripsi, magang, penugasan, dan hal-hal terkait penilaian prestasi kampus atau kinerja di kampus)',
                                   style: TextStyle(
                                     fontSize: 17,
                                     color: Colors.black,
@@ -134,7 +233,42 @@ class Konsultasi extends StatelessWidget {
                     ),
                   ),
                 ),
-
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 5');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Text(
+                              'Konsultasi diluar hal-hal di atas',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold,
+                                overflow: TextOverflow.fade,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
                 // SizedBox(height: 5),
                 // Divider(
                 //   color: Colors.grey[350],

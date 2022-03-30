@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:kampus_gratis/constants.dart';
 import 'package:kampus_gratis/screens/konsultasi_dan_services/controller.dart';
 import 'package:kampus_gratis/screens/konsultasi_dan_services/konsultasi/konsultasi.dart';
 import 'package:kampus_gratis/screens/konsultasi_dan_services/layanan/layanan.dart';
@@ -78,7 +79,7 @@ class KonsultasiServices extends StatelessWidget {
                 //                 // maxLines: 5,
                 //                 // minLines: 1,
                 //                 decoration: InputDecoration.collapsed(
-                //                   hintText: 'Search',
+                //                   hintText: 'Search', 
                 //                   hintStyle: TextStyle(
                 //                     color: Colors.black
                 //                   )
@@ -96,7 +97,7 @@ class KonsultasiServices extends StatelessWidget {
                 //                 print('diklik');
                 //               }),
                 //               icon: Icon(
-                //                 Icons.search,
+                //                 Icons.search, 
                 //                 color: Colors.black
                 //               ),
                 //             ),
@@ -157,7 +158,7 @@ class KonsultasiServices extends StatelessWidget {
                 //       child: Text(
                 //         'Lihat Semua FAQ',
                 //         style: TextStyle(
-                //           fontSize: 20,
+                //           fontSize: 20, 
                 //           color: Colors.black,
                 //         ),
                 //       ),
@@ -165,7 +166,7 @@ class KonsultasiServices extends StatelessWidget {
                 //   ),
                 // ),
                 // SizedBox(height: 20),
-
+                
                 // Align(
                 //   alignment: Alignment.bottomRight,
                 //   child: Padding(

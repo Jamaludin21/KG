@@ -49,7 +49,7 @@ class DownloadDocument extends StatelessWidget {
                       return InkWell(
                         onTap: (() {
                           controller.download(
-                              'https://doc-0s-a8-slides.googleusercontent.com/export/3vt633dlngh9ect3v7o3s2skpk/pft5vvh1nugfq78u3gv6rvsk64/1648522635000/102021894929311873176/104438952627315743535/1urq9_7EoGvulgC--3LVBF8dl8o9NDRhIru9fqCG-XQw?id=1urq9_7EoGvulgC--3LVBF8dl8o9NDRhIru9fqCG-XQw&pageid=ge7b5133482_0_0&returnExportRedirectUrl=true&token=AC4w5ViHBkWadBhGcPsx1BdjQJcc7-oKOQ:1648508409867&includes_info_params=1&exportFormat=pptx&dat=AO9BBxwUXIDPotbyApSWtAcGZgieAk9ul0rz8fX7V345XZeHOGxqZOKgn8aLJNQZd_3LRWzbqjRElRD8tjE_hayoxEnirmzI_K00Itg2j5LaUF_lrHhSIv-56LiX46xCP6w726kgJ5a53oyhcKRSPTOO68NNfuDlwynEZbNO6h97PLjhjuxBhgOk-J3dujp6ZmXMy-hQnnjELWyqeriAo1oYC1Z7EuLT-d4Ewb668M2e8keA1k1AsSLVdyQSC2zYypg8OH-1kz1TfcHTpq5-XfHzDuXzsuZ4mfohVWpIGl3khwGF0o1t_pdhi1vCmJogh8mVQ1DMnDbJroHqGs-C_puG-Jyg3x7Vj3FbB8NVSYyvKK1RTWap8uhqUGjw24ClSMRdT3lObno80TheVRRIz-yX8my249Udg6FLT-F6CpfumDj0azU87ucqVsZfNZI6CpANYJGvXMieiy56PJSuDXUZQ7drXWLTOICFF-sPJhEUjAc8XgvaAv04uU92B2rOHr9Y6f4GVmeQY-aLQoIHYxDbG5KfYGkO-FnG5Tr2Wbqz9wC6sF9FKFvnVXBT0YrLCrGp7JYLqynIzKMlfMVA-TslvqsGvE4VrxIG9Dev0Wy86B9LORXcYZtFyjoCtiUgvLPrBX0SzhuDAX_Tq4nrHQOJQZ2ceZpn6_qLzeWoqMKanfkIUfQCQ0MipbpJ4dC8teoDJjPpzroKM9owiIxP2VLHJHDcxxOfzSGLwhypbXpiNyMvfhomjHloGGXBmRrlZpnS5yy-yLgMuhHQRqPcVvi5eOnqsD-OTkcZ948QaEi22dI');
+                              'https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.doc');
                           print('di klik');
                         }),
                         child: Container(

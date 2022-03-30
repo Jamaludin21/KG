@@ -47,28 +47,14 @@ class Layanan extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Container(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Dokumen',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                                Text(
-                                  '(Unduh dokumen untuk pengajuan Jenjang Karir, Konsentrasi Mata Kuliah, Jenis Magang)',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w400,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                              ],
+                            child: Text(
+                              'Dokumen',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
                             ),
                           ),
                         ),
@@ -97,28 +83,14 @@ class Layanan extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Container(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Proses Dokumen',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                                Text(
-                                  '(Ajukan dokumen yang sudah anda download agar dapat di proses oleh pihak admin)',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w400,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                              ],
+                            child: Text(
+                              'Kenapa saya tidak bisa mengirim komentar pada forum diskusi?',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
                             ),
                           ),
                         ),
@@ -147,28 +119,14 @@ class Layanan extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Container(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Cek Status Dokumen',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w500,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                                Text(
-                                  '(Cek status pengajuan dokumen kamu disini)',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w400,
-                                    overflow: TextOverflow.fade,
-                                  ),
-                                ),
-                              ],
+                            child: Text(
+                              'Kenapa saya tidak bisa memutar video?',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
                             ),
                           ),
                         ),
@@ -182,7 +140,114 @@ class Layanan extends StatelessWidget {
                     ),
                   ),
                 ),
-
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 3');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Text(
+                              'Kenapa saya pendek?',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 4');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Text(
+                              'Kenapa saya gendut?',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(height: 5),
+                Divider(
+                  color: Colors.grey[350],
+                  thickness: 2,
+                ),
+                SizedBox(height: 5),
+                InkWell(
+                  onTap: (() {
+                    print('di klik 5');
+                  }),
+                  child: Container(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            child: Text(
+                              'Kenapa saya jelek?',
+                              style: TextStyle(
+                                fontSize: 17,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                overflow: TextOverflow.fade,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                            child: Icon(
+                          Icons.navigate_next,
+                          color: Colors.black,
+                          size: 35,
+                        )),
+                      ],
+                    ),
+                  ),
+                ),
                 // SizedBox(height: 5),
                 // Divider(
                 //   color: Colors.grey[350],
